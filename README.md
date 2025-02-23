@@ -1,5 +1,11 @@
-# tsc-native
+# **Zygr – TypeScript Native Compiler**  
 
-## Overview
+## **Overview**  
 
-This project is a basic compiler that takes TypeScript code as input and compiles it directly to native machine code. Instead of transpiling TypeScript to JavaScript, this compiler generates machine code that can be executed directly by the CPU. The goal is to provide a simple and efficient way to run TypeScript code without relying on a JavaScript runtime.
+**Zygr** is a compiler that translates TypeScript directly into native machine code, eliminating the need for JavaScript or a runtime environment. Instead of transpiling to JavaScript and running in an engine, **Zygr** produces standalone executables that run natively on the CPU.  
+
+### **Key Goals:**  
+
+- **Native Execution** – Run TypeScript as a compiled, standalone binary.  
+- **No JavaScript Runtime** – Completely bypass JavaScript and its ecosystem.  
+- **High Performance** – Optimize TypeScript execution with a modern compilation pipeline.  
